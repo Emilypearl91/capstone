@@ -1,21 +1,19 @@
-<script>
-  export let data;
-</script>
+
 <body>
 <section class="h-96 w-full bg-sga">
-<h1 class="font-book text-8xl text-center p-32">Book Journal</h1>
+<h1 class="font-book text-8xl text-center p-32">The Paperback Post Journal</h1>
 </section>
 
-<h2 class="font-book text-xl p-4 text-sbb text-center">Info</h2>
-<p class="font-book text-sbb p-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel neque facilisis, vulputate odio nec, consequat enim. Proin justo massa, auctor in elementum in, congue non nisi. Pellentesque nec porta enim, non viverra felis. Cras faucibus accumsan metus sed porttitor. Nunc volutpat lacinia ipsum, sed fringilla lorem tincidunt sit amet. Praesent tellus leo, fermentum et nibh sit amet, eleifend placerat orci. Ut euismod nisl eu tortor tincidunt, sit amet consectetur justo egestas. Pellentesque porta mauris augue, at elementum ligula pellentesque sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam ultricies ante sit amet faucibus cursus. Sed luctus condimentum rutrum. Integer urna lacus, interdum nec ante at, fringilla aliquet purus. Fusce luctus ullamcorper metus et hendrerit. Sed vulputate odio eu scelerisque vehicula. Integer sed mollis nibh, faucibus feugiat sem. Quisque laoreet eu felis sed euismod.
-
-  Ut sed tincidunt tortor. Aliquam erat volutpat. Etiam lobortis felis sapien, non tempor nisl tincidunt sed. Phasellus id eleifend massa. Vivamus pellentesque laoreet urna, id suscipit nisi interdum nec. Suspendisse cursus et tortor et pulvinar. Sed tincidunt neque sit amet nisl hendrerit, at congue purus pretium. Morbi tempor feugiat venenatis. Donec sed nunc in erat viverra imperdiet ac fermentum odio. Donec quam leo, facilisis eget aliquet quis, venenatis vel neque. Vestibulum mauris orci, placerat eget porta volutpat, egestas aliquam lectus. Cras eleifend, sem sed tristique maximus, sem lectus viverra lorem, sit amet suscipit arcu enim vitae metus.</p>
+<h2 class="font-book text-xl p-4 text-sbb text-center">About This Project</h2>
+<p class="font-book text-sbb p-4 ">This book journal idea started originally from when I was sixteen and bored in lockdown. Reading is a very strong passion of mine and I often share my thoughts and recommendations to my close friends. Because of this, I decided one day with my endless amounts of time to create an extensive spreadsheet with everything there was to know about the book regarding the author (in alphabetical order), genre, publisher, number of pages, isbn, and if it was a paperback or hard cover. With this information I used it to track my growing library and the books I had read. Now for this project I decided to give this idea a bit of a face lift and make it into a webpage that I plan on becoming a passion project outside of this program. Goals of mine are to turn this webpage into an app that my friends and I can journal our thoughts, catalouge our library and host book clubs through. </p>
 </body>
 
 
 <style>
   :global(body) {
     background-color: #393E41;
-    
+    height: 100vh;
+    padding: 0;
+    margin: 0;
   }
 </style>
