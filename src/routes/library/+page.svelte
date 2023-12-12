@@ -1,19 +1,23 @@
+<script>
+  export let data;
+</script>
 <body>
-  
-
-  <section class="grid-cols-12 grid-rows-6 grid">
-    <h1 class='text-5xl m-10 text-sbb col-span-2'>Recents</h1>
-  
-    <h1 class='text-5xl m-10 text-sbb row-start-4 col-span-2'>Fantasy</h1>
-  
-  
-  <h2 class="text-sbb text-2xl mt-10 col-start-10 col-end-12 ">your goal progress</h2>
+<article class="flex flex-row justify-evenly">
+  {#each data.books as post}
+  <section class="bg-sbb h-96 w-96 m-6 ">
+    <h1 class="font-book text-xl p-2 text-center">{post.title}</h1>
+    <h2 class="font-book text-lg p-2 text-center">{post.author}</h2>
+    <img src="{post.cover}" alt="book covers">
   </section>
-  </body>
-  
-  
-  <style>
-    :global(body) {
-      background-color: #393E41;
-    }
-  </style>
+
+  {/each}
+</article>
+
+</body>
+
+<style>
+  :global(body) {
+    background-color: #393E41;
+    
+  }
+</style>
