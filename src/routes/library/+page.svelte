@@ -1,38 +1,52 @@
-<script>
-  export let data;
-</script>
+
 <body>
-<article class="m-4">
-  {#each data.books as post}
-  <section class="bg-sbb m-auto p-10 Card">
-    <h1 class="font-book text-5xl p-2 text-center">{post.title}</h1>
-    <h2 class="font-book text-2xl p-2 text-center">{post.author}</h2>
-    <img src="{post.cover}" alt="book covers" class="">
-    <p class="font-book text-lg p-2">{post.thoughts}</p>
-    <p class="font-book text-lg p-2 font-bold">{post.tags}</p>
+<h1 class="font-book text-sga text-5xl m-4 ">Fantasy</h1>
+ <section class="flex flex-row justify-evenly m-4">
+<section class="h-80 w-40">
+<img src="./images/wicked-king.png" alt="book cover">
+</section>
+
+<section class="h-80 w-40">
+  <img src="./images/queen-of-nothing.png" alt="book cover">
+</section>
+
+<section class="h-80 w-40">
+  <img src="./images/shadow-and-bone.png" alt="book cover">
+</section>
+
+<section class="h-80 w-40">
+  <img src="./images/seige-and-storm.png" alt="book cover">
+</section>
+</section> 
+
+<h1 class="font-book text-sga text-5xl m-4">Young Adult</h1>
+<section class="flex flex-row justify-evenly m-4">
+  <section class="h-80 w-40">
+    <img src="./images/sun-is-also-a-star.png" alt="book cover">
   </section>
+  <section class="h-80 w-40">
+    <img src="./images/everything-everything.png" alt="book cover">
+  </section>
+</section>
 
-  {/each}
-</article>
+<h1 class="font-book text-sga text-5xl m-4">Paranormal</h1>
+<section class="flex flex-row justify-evenly m-4">
+  <section class="h-80 w-40">
+    <img src="./images/ninth-house.png" alt="book cover">
+  </section>
+</section>
 
+<h1 class="font-book text-sga text-5xl m-4">Gothic</h1>
+<section class="flex flex-row justify-evenly m-4"np >
+  <section class="h-80 w-40">
+    <img src="./images/belladonna.png" alt="book cover">
+  </section>
+</section>
 </body>
 
 <style>
   :global(body) {
     background-color: #393E41;
-    
-  }
-
-
-
-  .Card{
-  max-width: 80ch;
-  margin: auto;
-  margin-top: .5rem;
-  padding: 2rem;
-  border-radius: 1rem;
-  
-  color: black;
   
   }
 </style>
